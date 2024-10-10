@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        
+        <script src="https://kit.fontawesome.com/b872c0f833.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <main>
+
+            <h1>Frequently Asked Questions</h1>
+            <p>Here are some of the frequently asked questions.</p>
+
+            <div id="accordeon">
+                <div class="item opened">
+                    <div class="title" onclick="toggle(event)">
+                        <span class="title-text">What is roadmap.sh ?</span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                        </span>
+                    </div>
+                    <div class="content">
+                        roadmap.sh is a community effort to create learning paths, guides, project ideas and other similar content to help developers grow in their careers.
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="title" onclick="toggle(event)">
+                        <span class="title-text">What are the plans for roadmap.sh ?</span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                        </span>
+                    </div>
+                    <div class="content" hidden>
+                        <p>The plans for roadmap.sh involve expanding the roadmaps to include more roles and industries.</p>
+                        <p>This includes introducing roadmaps for emerging technologies and domains such as AI, blockchain, and cloud computing. </p>
+                        <p>The platform also aims to increase community participation by allowing users to contribute and suggest improvements.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="title" onclick="toggle(event)">
+                        <span class="title-text">How is roadmap.sh built ?</span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                        </span>
+                    </div>
+                    <div class="content" hidden>
+                        <p>Roadmap.sh is built using a combination of React for the frontend, Node.js for the backend, and is hosted on Vercel.</p>
+                        <p>The project uses GitHub for version control and community contributions, with contributions welcomed from anyone through pull requests.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="title" onclick="toggle(event)">
+                        <span class="title-text">Can I use roadmap.sh in my team ?</span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                        </span>
+                    </div>
+                    <div class="content" hidden>
+                        <p>Yes, roadmap.sh can be used in teams.</p>
+                        <p> It's a great resource for creating learning paths for team members, aligning their skills development with the company's goals, and onboarding new hires by providing them with clear learning roadmaps.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="title" onclick="toggle(event)">
+                        <span class="title-text">How can I create custom roadmaps ?</span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                        </span>
+                    </div>
+                    <div class="content" hidden>
+                        <p>You can create custom roadmaps by forking the roadmap.sh GitHub repository and modifying the existing files to tailor them to your specific needs. </p>
+                        <p>You can add your own roles, technologies, and learning paths that align with your team or personal goals.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="title" onclick="toggle(event)">
+                        <span class="title-text">Is roadmap.sh really 7th most starred project on GitHub ?</span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-chevron-up"></i>
+                        </span>
+                    </div>
+                    <div class="content" hidden>
+                        <p>Yes, roadmap.sh is one of the most popular repositories on GitHub, ranking as the 7th most starred project as of today.</p>
+                        <p>The project has gained immense popularity due to its community-driven approach, ease of use, and the value it provides to developers globally.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

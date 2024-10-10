@@ -1,0 +1,37 @@
+main {
+    padding: .5em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#accordeon {
+    width: 500px;
+
+}
+
+#accordeon .item.opened .icon {
+    transform: rotate(.5turn);
+}
+
+#accordeon > div {
+    margin-top: .5em;
+}
+
+#accordeon .title {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: .5em;
+    border-radius: .75em;
+}
+
+#accordeon .title .icon {
+    position: absolute;
+    right: 1em;
+}
+
+#accordeon .content {
+    margin-top: .1em;
+    border: 2px solid black; 
+    border-radius: .75em;
+    padding: 1em;
+}
