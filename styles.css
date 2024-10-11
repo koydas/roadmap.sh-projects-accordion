@@ -1,6 +1,9 @@
 main {
     padding: .5em;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+    font-family: "Architects Daughter", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #accordeon {
