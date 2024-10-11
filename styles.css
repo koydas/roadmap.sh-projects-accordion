@@ -7,7 +7,7 @@ main {
 }
 
 #accordeon {
-    width: 500px;
+    width: 100%;
 
 }
 
@@ -30,6 +30,7 @@ main {
 #accordeon .title .icon {
     position: absolute;
     right: 1em;
+    font-size: 25px;
 }
 
 #accordeon .content {
